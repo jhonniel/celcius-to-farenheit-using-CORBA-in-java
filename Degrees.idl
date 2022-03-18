@@ -1,0 +1,9 @@
+module DegreesApp
+{
+
+	interface DegreesApp
+	{
+		string getCelcius(in double input);
+		string getFahrenheit(in double input);
+	};
+};
